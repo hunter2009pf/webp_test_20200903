@@ -27,6 +27,8 @@ dependencies:
   path_provider: 1.6.1
   image_gallery_saver: ^1.5.0
   permission_handler: 4.4.0+hotfix.4
+  flutter_cube: 0.0.5
+  dio: ^3.0.10
 
 dev_dependencies:
   flutter_test:
@@ -50,6 +52,7 @@ flutter:
   #  - images/a_dot_ham.jpeg
   assets:
     - assets/
+    - assets/cube/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
